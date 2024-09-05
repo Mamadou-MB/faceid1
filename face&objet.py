@@ -93,7 +93,7 @@ weights_path = "path/to/yolov4-tiny.weights"
 names_file = "coco .names"
 
 try:
-    net = load_yolo_model(cfg_file, weights_file)
+    net = load_yolo_model(config_path, weights_path)
     classes = load_classes(names_file)
     output_layers = net.getUnconnectedOutLayersNames()
 except Exception as e:
