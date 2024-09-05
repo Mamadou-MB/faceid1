@@ -1,7 +1,7 @@
-pip
+pip==24.2
 scikit-learn
 numpy==2.1.1
 pandas==2.2.2
 streamlit==1.37.0
 opencv-python-headless
-pillow==7.1.0
+pillow==6.2.2
