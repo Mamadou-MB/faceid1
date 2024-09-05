@@ -4,4 +4,4 @@ numpy==2.1.1
 pandas==2.2.2
 streamlit==1.37.0
 opencv-python-headless
-PIL==10.4.0
+PIL==10.3.0
