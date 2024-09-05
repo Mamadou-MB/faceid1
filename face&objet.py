@@ -87,8 +87,9 @@ def detect_objects_from_webcam(net, output_layers, classes):
 # Charger le modèle YOLOv4 et les classes
 st.title("🔍 Détection d'Objets et visages ")
 
-config_path = "path/to/yolov4-tiny.cfg"
-weights_path = "path/to/yolov4-tiny.weights"
+config_path = "chemin/vers/yolov4-tiny.cfg"
+weights_path = "chemin/vers/yolov4-tiny.weights"
+
 net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
 names_file = "coco .names"
 
