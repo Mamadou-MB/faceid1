@@ -88,7 +88,7 @@ def detect_objects_from_webcam(net, output_layers, classes):
 st.title("🔍 Détection d'Objets et visages ")
 
 cfg_file = "yolov4.cfg"
-weights_file = "yolov4.weights"
+weights_file = "yolov4-tiny.weights"
 names_file = "coco .names"
 
 try:
