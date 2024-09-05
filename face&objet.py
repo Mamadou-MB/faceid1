@@ -93,7 +93,7 @@ names_file = "coco .names"
 
 
 try:
-    net = load_yolo_model(config_path, weights_path)
+    net = load_yolo_model(cfg_file , weights_file)
     classes = load_classes(names_file)
     output_layers = net.getUnconnectedOutLayersNames()
 except Exception as e:
