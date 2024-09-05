@@ -89,8 +89,7 @@ st.title("🔍 Détection d'Objets et visages ")
 
 config_path = "chemin/vers/yolov4-tiny.cfg"
 weights_path = "chemin/vers/yolov4-tiny.weights"
-
-net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
+#net = cv2.dnn.readNetFromDarknet(config_path, weights_path)
 names_file = "coco .names"
 
 try:
