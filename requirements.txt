@@ -2,7 +2,6 @@ pip
 scikit-learn
 numpy==2.1.1
 pandas==2.2.2
-matplotlib==3.9.2
 streamlit==1.37.0
 opencv-python-headless
 pillow==6.2.2
